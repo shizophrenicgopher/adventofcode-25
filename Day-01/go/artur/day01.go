@@ -7,7 +7,7 @@ import (
 )
 
 func main() {
-	input, _ := os.ReadFile("Day-01/go/artur/input.txt")
+	input, _ := os.ReadFile("input01.txt")
 	lines := strings.Split(string(input), "\n")
 
 	countP1 := 0
